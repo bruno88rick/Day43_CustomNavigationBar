@@ -11,6 +11,7 @@
 		B6FE51D42BDF981F009964AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FE51D32BDF981F009964AE /* ContentView.swift */; };
 		B6FE51D62BDF9825009964AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FE51D52BDF9825009964AE /* Assets.xcassets */; };
 		B6FE51D92BDF9825009964AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FE51D82BDF9825009964AE /* Preview Assets.xcassets */; };
+		B6FE51E02BDF9C3A009964AE /* ToolbarCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FE51DF2BDF9C3A009964AE /* ToolbarCustomization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B6FE51D32BDF981F009964AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6FE51D52BDF9825009964AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6FE51D82BDF9825009964AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6FE51DF2BDF9C3A009964AE /* ToolbarCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarCustomization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B6FE51D12BDF981F009964AE /* Day43_CustomNavigationBarApp.swift */,
 				B6FE51D32BDF981F009964AE /* ContentView.swift */,
+				B6FE51DF2BDF9C3A009964AE /* ToolbarCustomization.swift */,
 				B6FE51D52BDF9825009964AE /* Assets.xcassets */,
 				B6FE51D72BDF9825009964AE /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FE51E02BDF9C3A009964AE /* ToolbarCustomization.swift in Sources */,
 				B6FE51D42BDF981F009964AE /* ContentView.swift in Sources */,
 				B6FE51D22BDF981F009964AE /* Day43_CustomNavigationBarApp.swift in Sources */,
 			);

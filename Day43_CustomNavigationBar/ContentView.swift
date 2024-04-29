@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List(0..<100) { i in
+                Text("Row \(i)")
+            }
+            .navigationTitle("Title goes Here")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbarBackground(.blue, for: .navigationBar)
+            .toolbarColorScheme(.dark)
+            //Later on you'll meet other kinds of toolbars. Those two modifiers affect all bars, but if you want to just modify the navigation bar you should add for: .navigationBar as a second parameter to both of them.
+            .toolbar(.hidden, for: .navigationBar) // one more way to customize navigation bar
         }
-        .padding()
     }
 }
 
